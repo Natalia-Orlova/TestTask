@@ -91,7 +91,7 @@ a {
   justify-content: space-between;
 }
 .step:last-child {
-  display: block;
+  justify-content: start;
 }
 
 .step__title {
@@ -212,6 +212,7 @@ a {
   text-transform: uppercase;
   line-height: 150%;
   font-family: "RobotoBold", sans-serif;
+  text-decoration: none;
   padding: 7px 50px;
   display: block;
   margin: 0 auto;
