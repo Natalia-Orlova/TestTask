@@ -139,6 +139,11 @@ a {
   }
 }
 
+@media (pointer: coarse) {
+  .step__btns_btn:hover::after {
+    transform: scale(1);
+  }
+}
 .step__btns_btn.upload-btn::after {
   background: var(--color-red) url(./icons/add.svg);
   background-repeat: no-repeat;
@@ -217,6 +222,13 @@ a {
   .step-payment__btn:hover {
     background-color: #f5e9e9;
     color: var(--color-red);
+  }
+}
+
+@media (pointer: coarse) {
+  .step-payment__btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-red);
   }
 }
 
