@@ -258,4 +258,7 @@ a {
   .step {
     min-height: 200px;
   }
+  .rules__list_li::before {
+    top: 12px;
+  }
 }
