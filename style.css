@@ -25,6 +25,12 @@
   --color-white: #ffffff;
 }
 
+body {
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
 h1,
 p,
 li {
@@ -40,8 +46,6 @@ a {
   max-width: 1140px;
   margin: 0 auto;
   padding: 50px 30px 50px 50px;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
 }
 
 .rules {
